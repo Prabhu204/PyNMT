@@ -23,6 +23,20 @@ Model evaluation can be done by generating a translated output sequence i.e the 
 Then the sequence of integers used to map the target langauge index-to-word dictionary to map back to words.
 
 In addition, randomly selected each source phrase in a dataset and its corresponding predicted result will compared to 
-the expected target phrase. BLEU scores gives a quantitative idea of model performance.
+the expected target phrase. As well as evaluation of BLEU scores will give a quantitative idea of model performance.
+
+### Usage
+
+```bash
+python  PyNMT.py 
+```
+The above command starts training of language model with defaults parameters and saves the results to the corresponding 
+directories. If you wish to tweak the parameters for training, below example give you a an idea. 
+
+```bash
+python  PyNMT.py -b 32 -lr 0.001 -hs 200
+```
+
+
 ### License
 [MIT](https://github.com/Prabhu204/PyNMT/blob/master/LICENSE)

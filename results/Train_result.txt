@@ -13,3 +13,4 @@ Epoch:[5/20]		Epoch Loss:3.555001696846926
 Epoch:[6/20]		Epoch Loss:3.4620178026410375
 Epoch:[7/20]		Epoch Loss:3.3886966349122556
 Epoch:[8/20]		Epoch Loss:3.3334613817522776
+Epoch:[9/20]		Epoch Loss:3.2918805956476476
