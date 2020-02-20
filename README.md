@@ -2,7 +2,7 @@
 <h2>Neural machine translator form English to German</h2>
 NMT model is composed of one encoder for source language, one decoder for target language. 
 However, the data required for
-building such model requires language pair phrases. The following steps will explain NMT models.  
+building such model requires language pair phrases. The following steps will explain NMT model.  
 <h3>1. Preparing the Text Data</h3>
 Before tokenization of data, it will be cleaned as below mentioned steps.
 
@@ -18,6 +18,11 @@ Once the data & vocabulary has been prepared, which is passed to the LSTM model 
 As well as another LSTM model for decoding encoded vectors into a target language.
   
 Preprocessed data can be found [here](https://drive.google.com/drive/folders/1bSZtJAeMIVdhtxBQgSn7BgRzrF-05ZnX?usp=sharing)
+### 3. Language model evaluation
+Model evaluation can be done by generating a translated output sequence i.e the model can predict the entire output sequence.
+Then the sequence of integers used to map the target langauge index-to-word dictionary to map back to words.
 
+In addition, randomly selected each source phrase in a dataset and its corresponding predicted result will compared to 
+the expected target phrase. BLEU scores gives a quantitative idea of model performance.
 ### License
 [MIT](https://github.com/Prabhu204/PyNMT/blob/master/LICENSE)
