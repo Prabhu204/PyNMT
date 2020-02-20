@@ -26,7 +26,7 @@ In addition, randomly selected each source phrase in a dataset and its correspon
 the expected target phrase. As well as evaluation of BLEU scores will give a quantitative idea of model performance.
 
 ### Usage
-
+##### Model training
 ```bash
 python  PyNMT.py 
 ```
@@ -36,7 +36,26 @@ directories. If you wish to tweak the parameters for training, below example giv
 ```bash
 python  PyNMT.py -b 32 -lr 0.001 -hs 200
 ```
+##### Model evaluation
+```bash
+python  PyNMTevaluation.py 
+```
+### Available parameters:
+```bash
+usage: Implementation of neural language translator from English to German
+       [-h] [-l LAYERS] [-b BATCH_SIZE] [-n NUM_EPOCHS] [-lr LR]
+       [-hs HIDDEN_SIZE] [-d DROPOUT] [-bi]
 
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LAYERS, --layers LAYERS
+  -b BATCH_SIZE, --batch_size BATCH_SIZE
+  -n NUM_EPOCHS, --num_epochs NUM_EPOCHS
+  -lr LR, --lr LR
+  -hs HIDDEN_SIZE, --hidden_size HIDDEN_SIZE
+  -d DROPOUT, --dropout DROPOUT
+  -bi, --bidirectional
+```
 
 ### License
 [MIT](https://github.com/Prabhu204/PyNMT/blob/master/LICENSE)
