@@ -1,0 +1,12 @@
+Bidirectional:	False
+Layers:	2
+Hidden_size:	440
+Dropout:	0.2
+Batch_size:	64
+Epochs:	20
+learning_rate:	0.01
+Epoch:[1/20]		Epoch Loss:7.971097341411574
+Epoch:[2/20]		Epoch Loss:4.173238079845275
+Epoch:[3/20]		Epoch Loss:3.904402084800876
+Epoch:[4/20]		Epoch Loss:3.686653369436921
+Epoch:[5/20]		Epoch Loss:3.555001696846926

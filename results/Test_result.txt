@@ -1,0 +1,5 @@
+Epoch:[1/20]		Test Loss:4.583307134694066
+Epoch:[2/20]		Test Loss:4.071042800771779
+Epoch:[3/20]		Test Loss:3.8238132575462602
+Epoch:[4/20]		Test Loss:3.6519143992456895
+Epoch:[5/20]		Test Loss:3.5459238578533303
