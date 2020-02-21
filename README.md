@@ -31,7 +31,7 @@ the expected target phrase. As well as evaluation of BLEU scores will give a qua
 python  PyNMT.py 
 ```
 The above command starts training of language model with defaults parameters and saves the results to the corresponding 
-directories. If you wish to tweak the parameters for training, below example give you a an idea. 
+directories. If you wish to tweak the parameters for training, below example give you an idea. 
 
 ```bash
 python  PyNMT.py -b 32 -lr 0.001 -hs 200
