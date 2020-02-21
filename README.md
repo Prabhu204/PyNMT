@@ -17,7 +17,7 @@ Before tokenization of data, it will be cleaned as below mentioned steps.
 Once the data & vocabulary has been prepared, which is passed to the LSTM model for encoding a source language.
 As well as another LSTM model for decoding encoded vectors into a target language.
   
-Preprocessed data can be found [here](https://drive.google.com/drive/folders/1bSZtJAeMIVdhtxBQgSn7BgRzrF-05ZnX?usp=sharing)
+Preprocessed data & trained models can be found [here](https://drive.google.com/drive/folders/1bSZtJAeMIVdhtxBQgSn7BgRzrF-05ZnX?usp=sharing)
 ### 3. Language model evaluation
 Model evaluation can be done by generating a translated output sequence i.e the model can predict the entire output sequence.
 Then the sequence of integers used to map the target langauge index-to-word dictionary to map back to words.
