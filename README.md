@@ -1,5 +1,5 @@
 # PyNMT
-<h2>Neural machine translator form English to German</h2>
+<h2>Neural machine translation from English to German</h2>
 NMT model is composed of one encoder for source language, one decoder for target language. 
 However, the data required for
 building such model requires language pair phrases. The following steps will explain NMT model.  
